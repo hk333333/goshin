@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>五心を当てるゲーム</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainContainer">
+        <div id="gameContainer">
+            <h1>五心ダーツ</h1>
+            <p id="instruction">「重心」をクリックしてください。</p>
+            <canvas id="triangleCanvas"></canvas>
+            <p id="score">スコア: 0</p>
+            <button id="startButton">新しいゲームを開始</button>
+            <button id="showRankingButton">ランキングを表示</button>
+        </div>
+        <div id="rankingContainer">
+            <h2>自己ランキング</h2>
+            <ol id="rankingList"></ol>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
